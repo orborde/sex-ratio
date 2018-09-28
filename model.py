@@ -1,3 +1,14 @@
+# Implements a model where each individual is either a "halfer"
+# (produces male and female offspring in equal proportion) or a
+# "daughters only" variant. The offspring sex ratio is the average of
+# the two parents' traits, so a halfer and a daughters-only will
+# together produce 3/4 daughters.
+#
+# Half of the offspring will inherit the father's daughter/halfer
+# status, and half will inherit the mother's. This almost certainly
+# isn't how any genetically heritable traits work, but at least it's
+# simple to model.
+
 import collections
 from fractions import Fraction as F
 
