@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+#
 # Implements a model where each individual is either a "halfer"
 # (produces male and female offspring in equal proportion) or a
 # "daughters only" variant. The offspring sex ratio is the average of
